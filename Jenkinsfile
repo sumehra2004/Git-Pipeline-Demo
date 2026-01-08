@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/sumehra04/ex7.git'
+                    url: 'https://github.com/sumehra04/Git-Pipeline-Demo.git'
                 echo 'Repository cloned successfully'
             }
         }
